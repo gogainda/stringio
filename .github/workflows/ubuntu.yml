@@ -12,7 +12,7 @@ jobs:
         os:
         - ubuntu-20.04
         - ubuntu-18.04
-        ruby: [ '2.6', '2.7', '3.0', '3.1', 'debug', 'head', 'jruby-head' ]
+        ruby: [ '2.6', '2.7', '3.0', '3.1', 'debug', 'head', 'jruby-head', 'truffleruby-head' ]
     steps:
     - uses: actions/checkout@v3
     - name: Set up Ruby
